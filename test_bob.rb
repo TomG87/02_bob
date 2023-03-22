@@ -3,12 +3,12 @@ require_relative 'bob.rb'
 # # Tests
 
 # # Test 1
-puts "TEST 1: Respond to sentence ending with a period"
-if bob_responds("I'm a fox.") == "Sounds good."
-  puts "TEST #1 passed"
-else
-  puts "TEST #1 failed"
-end
+# puts "TEST 1: Respond to sentence ending with a period"
+# if bob_responds("I'm a fox.") == "Sounds good."
+#   puts "TEST #1 passed"
+# else
+#   puts "TEST #1 failed"
+# end
 
 # # Test 2
 # puts
@@ -30,12 +30,12 @@ end
 
 # # Test 4
 # puts
-# puts "TEST 4: Respond to sentence ending with a question mark"
-# if bob_responds("   ") == "Fine, be that way."
-#   puts "TEST #4 passed"
-# else
-#   puts "TEST #4 failed"
-# end
+puts "TEST 4: Respond to sentence ending with a question mark"
+if bob_responds("   ") == "Fine, be that way."
+  puts "TEST #4 passed"
+else
+  puts "TEST #4 failed"
+end
 
 # # Test 5
 # puts
@@ -55,7 +55,7 @@ end
 #   puts "TEST #6 failed"
 # end
 
-# # Test 7
+# Test 7
 # puts
 # puts "TEST 7: Respond to ALL CAPS when there's also a non-letter character"
 # if bob_responds("PLEASE FAX IT 2 ME BY FRIDAY") == "Why are you yelling at me?"
@@ -82,8 +82,8 @@ end
 #   puts "TEST #9 failed"
 # end
 
-# # Test 10
-# puts
+# # # Test 10
+# # puts
 # puts "TEST 10: Respond to sentence containing no letters"
 # if bob_responds("555-123-4567") == "Whatever."
 #   puts "TEST #10 passed"
